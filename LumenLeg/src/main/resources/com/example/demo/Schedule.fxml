@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane styleClass="root" stylesheets="@Global.css, @Schedule.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PatientCont.ScheduleController">
+   <center>
+      <VBox alignment="TOP_CENTER" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label styleClass="page-title" text="My Rehabilitation Schedule" />
+            <HBox alignment="CENTER_LEFT" styleClass="header">
+               <children>
+                  <Label styleClass="logo-text" text="LumenLeg" />
+                  <Region HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+               </padding>
+            </HBox>
+            <TableView fx:id="scheduleTable">
+              <columns>
+                <TableColumn fx:id="dateColumn" prefWidth="150.0" text="Date" />
+                <TableColumn fx:id="timeColumn" prefWidth="120.0" text="Time" />
+                  <TableColumn fx:id="activityColumn" prefWidth="250.0" text="Activity" />
+                  <TableColumn fx:id="therapistColumn" prefWidth="250.0" text="Therapist" />
+              </columns>
+            </TableView>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#handleBackToDashboard" styleClass="back-button" text="Back to Dashboard" />
+         </children>
+         <padding>
+            <Insets bottom="40.0" left="80.0" right="80.0" top="40.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

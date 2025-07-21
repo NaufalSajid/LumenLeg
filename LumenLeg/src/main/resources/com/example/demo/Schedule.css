@@ -1,0 +1,13 @@
+.schedule-nav-button {
+    -fx-background-color: #F5EFE6;
+    -fx-text-fill: #5D4037;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 28px;
+    -fx-cursor: hand;
+}
+.schedule-nav-button:hover {
+    -fx-background-color: #EBE0D3;
+}
+

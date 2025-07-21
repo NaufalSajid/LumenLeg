@@ -1,0 +1,71 @@
+/* --- RehabStatus.css --- */
+
+.page-container {
+    -fx-max-width: 700px;
+}
+
+.page-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+    -fx-padding: 0 0 10px 0;
+}
+
+.section-container {
+    -fx-alignment: center-left;
+    -fx-max-width: 600px;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4037;
+}
+
+.section-content {
+    -fx-font-size: 14px;
+    -fx-text-fill: #5D4037;
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+    -fx-pref-height: 12px;
+    -fx-background-radius: 6px;
+}
+.progress-bar > .track {
+    -fx-background-color: #EBE0D3; /* Pasir lebih gelap */
+    -fx-background-radius: 6px;
+}
+.progress-bar > .bar {
+    -fx-background-color: #5D4037; /* Coklat Sedang */
+    -fx-background-radius: 6px;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/* Therapist's Notes Area */
+.notes-area {
+    -fx-background-color: #F5EFE6; /* Warna Pasir */
+    -fx-background-radius: 12px;
+    -fx-border-color: transparent;
+    -fx-pref-height: 180px;
+    -fx-font-size: 14px;
+}
+.notes-area .content {
+    -fx-background-color: transparent;
+}
+
+
+/* Tombol Kembali */
+.back-button {
+    -fx-background-color: #8A9A5B; /* Hijau Zaitun */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0, 0, 5);
+}
+.back-button:hover {
+    -fx-background-color: #79894a; /* Hijau Zaitun lebih gelap */
+}

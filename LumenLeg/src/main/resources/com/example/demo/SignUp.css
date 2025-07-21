@@ -1,0 +1,88 @@
+/* Gaya untuk root pane dengan gambar latar, sama seperti login */
+.signup-root-pane {
+    /* Path gambar menggunakan referensi dari direktori yang sama */
+    -fx-background-image: url("Lumeng.png");
+
+    -fx-background-color: #F4F4F4; /* Warna latar jika gambar tidak ditemukan */
+    -fx-background-size: contain;
+    -fx-background-position: left center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Gaya untuk kontainer form putih di sebelah kanan */
+.form-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 20, 0, 0, 5);
+}
+
+/* Gaya untuk judul, disamakan dengan login */
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8D6E63;
+    -fx-text-alignment: center;
+}
+
+.form-container {
+    -fx-padding: 15px 0;
+}
+
+/* Gaya untuk label form, disamakan dengan login */
+.form-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 12px;
+    -fx-pref-height: 42px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #A3B18A; /* Warna fokus disamakan dengan login */
+}
+
+/* Gaya untuk tombol utama, disamakan dengan login */
+.signup-button {
+    -fx-background-color: #A3B18A; /* Warna hijau, sama seperti login */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 20 12 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.signup-button:hover {
+    -fx-background-color: #8C9A74;
+}
+
+.footer-text {
+    -fx-font-size: 13px;
+    -fx-fill: #555555;
+}
+
+/* Gaya untuk link, disamakan dengan login */
+.login-link {
+    -fx-background-color: transparent;
+    -fx-text-fill: #A3B18A;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+.login-link:hover {
+    -fx-text-fill: #8C9A74;
+}

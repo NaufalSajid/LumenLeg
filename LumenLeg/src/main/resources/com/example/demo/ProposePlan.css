@@ -1,0 +1,78 @@
+/* --- ProposePlan.css --- */
+
+.page-container {
+    -fx-max-width: 800px;
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+}
+
+.page-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8D6E63;
+    -fx-padding: 0 0 40px 0;
+}
+
+.form-container {
+    -fx-padding: 0 0 20px 0;
+}
+
+.form-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4037;
+}
+
+/* Style umum untuk input field */
+.combo-box, .text-area, .date-picker, .date-picker .text-field {
+    -fx-background-color: white;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+}
+
+.text-area {
+    -fx-pref-height: 150px;
+    -fx-padding: 5px;
+}
+
+.combo-box:focused, .text-area:focused, .date-picker:focused .text-field {
+    -fx-border-color: #A1887F;
+}
+
+.action-button-bar {
+    -fx-padding: 20px 0 0 0;
+}
+
+/* Tombol Submit Proposal */
+.submit-button {
+    -fx-background-color: #8A9A5B; /* Hijau Zaitun */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+
+.submit-button:hover {
+    -fx-background-color: #79894a;
+}
+
+/* Tombol Kembali (Secondary) */
+.secondary-button {
+    -fx-background-color: #F5EFE6;
+    -fx-text-fill: #5D4037;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #EBE0D3;
+}

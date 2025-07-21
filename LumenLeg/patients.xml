@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<patients>
+    <patient>
+        <patientId>1</patientId>
+        <name>AdibNS</name>
+        <age>21</age>
+        <gender>Male</gender>
+        <email>adib@gml.com</email>
+        <phoneNumber>12345</phoneNumber>
+        <emergencyContact>56789</emergencyContact>
+        <medicalHistory>Kopit</medicalHistory>
+        <rehabStatus>Active</rehabStatus>
+    </patient>
+</patients>

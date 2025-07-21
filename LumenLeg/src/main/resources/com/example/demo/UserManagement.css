@@ -1,0 +1,115 @@
+/* --- UserManagement.css --- */
+/* Gaya ini dirancang agar konsisten dengan file CSS lainnya seperti PatientRecords.css */
+
+/* -- Layout & Judul Halaman -- */
+.page-container {
+    -fx-padding: 30px 80px;
+    -fx-spacing: 20px; /* Jarak antara search bar dan tabel */
+}
+
+.page-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E; /* Coklat Tua */
+}
+
+.page-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8D6E63; /* Coklat Abu-abu */
+}
+
+/* -- Search Field -- */
+.search-field {
+    -fx-background-color: white;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+    -fx-max-width: 400px; /* Batasi lebar search bar */
+    -fx-prompt-text-fill: #A1887F;
+}
+
+.search-field:focused {
+    -fx-border-color: #A1887F; /* Coklat Muda saat aktif */
+}
+
+/* -- TableView Styling -- */
+.table-view { /* Menargetkan semua TableView di halaman ini */
+    -fx-background-color: transparent;
+    -fx-border-color: #EBE0D3;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #A1887F; /* Coklat Abu-abu untuk header */
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 15px;
+    -fx-text-transform: uppercase; /* Membuat header menjadi huruf besar */
+}
+
+.table-view .table-row-cell {
+    -fx-border-color: #EBE0D3;
+    -fx-border-width: 0 0 1px 0; /* Garis bawah untuk setiap baris */
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #F5EFE6; /* Warna pasir saat di-hover */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #E8EADF; /* Warna hijau zaitun muda saat dipilih */
+}
+
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-padding: 18px 15px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5D4037; /* Coklat Sedang untuk teks data */
+}
+
+/* -- Status Badge Styling -- */
+.status-badge {
+    -fx-padding: 5px 12px;
+    -fx-background-radius: 12px;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.status-active {
+    -fx-background-color: #E8EADF; /* Hijau Zaitun Muda */
+    -fx-text-fill: #79894a;    /* Teks Hijau Zaitun */
+}
+
+.status-completed {
+    -fx-background-color: #F5EFE6; /* Pasir */
+    -fx-text-fill: #AF642E;    /* Teks Terakota */
+}
+
+.status-inactive {
+    -fx-background-color: #ECEFF1; /* Abu-abu Sangat Muda */
+    -fx-text-fill: #546E7A;    /* Teks Abu-abu */
+}
+
+/* -- Action Button in Table -- */
+.view-details-button {
+    -fx-background-color: #8A9A5B;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 15px;
+}
+
+.view-details-button:hover {
+    -fx-background-color: #79894a; /* Versi lebih gelap */
+}
+

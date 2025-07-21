@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@ExerciseLogMonitoring.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AdminCont.ExerciseLogMonitoringController">
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="20.0" left="80.0" right="80.0" top="20.0" />
+         </padding>
+         <children>
+            <Label styleClass="page-title" text="Exercise Log Monitoring" />
+            <Label styleClass="page-subtitle" text="Review, edit, or delete patient exercise logs." />
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="40.0" left="80.0" right="80.0" />
+         </padding>
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" styleClass="combo-box">
+               <children>
+                  <Label styleClass="combo-box" text="Filter by Patient:" />
+                  <ComboBox fx:id="patientFilterComboBox" prefWidth="150.0" promptText="All Patients" styleClass="combo-box" />
+               </children>
+            </HBox>
+            <TableView fx:id="logTable" prefHeight="254.0" prefWidth="440.0" styleClass="table-row-cell">
+              <columns>
+                <TableColumn fx:id="patientNameColumn" prefWidth="75.0" text="PATIENT NAME" />
+                <TableColumn fx:id="exerciseTypeColumn" prefWidth="75.0" text="EXERCISE TYPE" />
+                  <TableColumn fx:id="dateColumn" prefWidth="75.0" text="DATE" />
+                  <TableColumn fx:id="durationColumn" prefWidth="75.0" text="DURATION" />
+                  <TableColumn fx:id="statusColumn" prefWidth="75.0" text="STATUS" />
+                  <TableColumn fx:id="actionsColumn" prefWidth="74.0" text="ACTIONS" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

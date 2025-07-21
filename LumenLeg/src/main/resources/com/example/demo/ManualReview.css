@@ -1,0 +1,54 @@
+/* --- ManualReview.css --- */
+
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+}
+
+.details-pane {
+    -fx-background-color: #F5EFE6; /* Warna pasir */
+    -fx-padding: 20px;
+    -fx-background-radius: 12px;
+}
+
+.details-pane .label {
+    -fx-text-fill: #5D4037;
+}
+
+.details-pane .text-area {
+    -fx-pref-height: 200px;
+}
+
+.approve-button {
+    -fx-background-color: #8A9A5B; /* Hijau Zaitun */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+.approve-button:hover {
+    -fx-background-color: #79894a;
+}
+
+.reject-button {
+    -fx-background-color: #F8E6DA; /* Terakota muda */
+    -fx-text-fill: #c0392b; /* Merah */
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+.reject-button:hover {
+    -fx-background-color: #e9d4c9;
+}
+
+/* Menargetkan TableView di halaman ini */
+.table-view .status-cell-pending {
+    -fx-text-fill: #AF642E; /* Warna Pasir */
+}
+.table-view .status-cell-approved {
+    -fx-text-fill: #79894a; /* Warna Hijau Zaitun */
+}
+.table-view .status-cell-rejected {
+    -fx-text-fill: #c0392b; /* Warna Merah */
+}

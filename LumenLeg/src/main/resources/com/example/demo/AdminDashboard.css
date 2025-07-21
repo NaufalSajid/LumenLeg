@@ -1,0 +1,94 @@
+/* --- AdminDashboard.css --- */
+
+.header {
+    -fx-padding: 20px 80px;
+    -fx-border-color: #EBE0D3;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.logo-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+}
+
+.page-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+    -fx-padding: 20px 0 20px 0;
+}
+
+.admin-card {
+    -fx-background-color: white;
+    -fx-background-radius: 16px;
+    -fx-padding: 25px;
+    -fx-alignment: center;
+    -fx-spacing: 25px;
+    -fx-border-color: #EBE0D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(141, 110, 99, 0.05), 10, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.admin-card:hover {
+    -fx-border-color: #C87941;
+    -fx-effect: dropshadow(gaussian, rgba(141, 110, 99, 0.1), 15, 0, 0, 5);
+}
+
+.icon-container {
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-background-radius: 12px;
+    -fx-alignment: center;
+}
+
+.icon-text {
+    -fx-font-size: 32px;
+}
+
+/* Warna ikon yang berbeda untuk setiap kartu */
+.icon-color-1 { -fx-background-color: #F5EFE6; } /* Pasir */
+.icon-color-2 { -fx-background-color: #E8EADF; } /* Hijau Zaitun Muda */
+.icon-color-3 { -fx-background-color: #F8E6DA; } /* Terakota Muda */
+
+.card-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4037;
+}
+
+.card-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8D6E63;
+}
+
+.go-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #AF642E;
+    -fx-font-weight: bold;
+    -fx-border-color: #EBE0D3;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 20px;
+}
+.go-button:hover {
+    -fx-background-color: #F5EFE6;
+}
+
+.footer {
+    -fx-padding: 20px 80px;
+}
+
+.logout-button-bottom {
+    -fx-background-color: #F5EFE6;
+    -fx-text-fill: #5D4037;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+.logout-button-bottom:hover {
+    -fx-background-color: #EBE0D3;
+}

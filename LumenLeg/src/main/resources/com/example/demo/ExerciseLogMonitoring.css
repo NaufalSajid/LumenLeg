@@ -1,0 +1,82 @@
+/* --- ExerciseLogMonitoring.css --- */
+
+/* Gaya umum sama seperti UserManagement.css */
+.page-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+}
+
+.page-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8D6E63;
+}
+
+/* Filter Bar */
+.filter-bar {
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+    -fx-padding: 0 0 15px 0;
+}
+
+.filter-bar .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4037;
+}
+
+.combo-box {
+    -fx-pref-width: 250px;
+}
+
+/* TableView Styling (Sama seperti sebelumnya) */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #EBE0D3;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #A1887F;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 15px;
+    -fx-text-transform: uppercase;
+}
+.table-view .table-row-cell {
+    -fx-border-color: #EBE0D3;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+}
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-padding: 18px 15px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5D4037;
+}
+
+/* Tombol Aksi di dalam Tabel */
+.edit-button {
+    -fx-background-color: #F5EFE6; /* Pasir */
+    -fx-text-fill: #5D4037;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 15px;
+}
+.edit-button:hover {
+    -fx-background-color: #EBE0D3;
+}
+
+.delete-button {
+    -fx-background-color: #F8E6DA; /* Merah muda/terakota muda */
+    -fx-text-fill: #c0392b;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 15px;
+}
+.delete-button:hover {
+    -fx-background-color: #e9d4c9;
+}

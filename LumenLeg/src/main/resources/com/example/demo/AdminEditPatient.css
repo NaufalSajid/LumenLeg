@@ -1,0 +1,72 @@
+/* --- AdminEditPatient.css --- */
+
+.edit-patient-container {
+    -fx-background-color: #FDFBFA;
+    -fx-padding: 40px 80px;
+    -fx-spacing: 20px; /* Adds space between elements in the VBox */
+    -fx-alignment: top-center; /* Aligns content to the top-center */
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4E342E;
+    -fx-padding-bottom: 20px;
+}
+
+.form-grid {
+    -fx-hgap: 15px; /* Horizontal spacing between columns */
+    -fx-vgap: 15px; /* Vertical spacing between rows */
+    -fx-max-width: 600px; /* Limits the width of the form for better readability */
+}
+
+.form-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4037;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #A1887F;
+}
+
+.button-bar {
+    -fx-spacing: 15px;
+    -fx-padding-top: 20px; /* Adds space above the buttons */
+    -fx-alignment: center-right; /* Aligns buttons to the right */
+}
+
+.save-button {
+    -fx-background-color: #8A9A5B;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+
+.save-button:hover {
+    -fx-background-color: #79894a;
+}
+
+.cancel-button {
+    -fx-background-color: #F5EFE6;
+    -fx-text-fill: #5D4037;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+    -fx-border-color: #EBE0D3;
+    -fx-border-width: 1px;
+}
+
+.cancel-button:hover {
+    -fx-background-color: #EBE0D3;
+}

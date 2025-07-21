@@ -1,0 +1,45 @@
+/* --- PatientRecords.css --- */
+.header { -fx-padding: 20px 80px; -fx-border-color: #EBE0D3; -fx-border-width: 0 0 1px 0; }
+.page-container { -fx-padding: 30px 80px; -fx-spacing: 20px; }
+.page-title { -fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #4E342E; }
+
+/* Action Bar */
+.action-bar { -fx-padding: 0 0 10px 0; }
+.text-field { -fx-background-color: white; -fx-border-color: #E0E0E0; -fx-border-radius: 8px; -fx-background-radius: 8px; -fx-font-size: 14px; -fx-pref-height: 40px; -fx-max-width: 350px;}
+.text-field:focused { -fx-border-color: #A1887F; }
+
+.add-patient-button { -fx-background-color: #8A9A5B; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8px; -fx-padding: 10px 20px; }
+.add-patient-button:hover { -fx-background-color: #79894a; }
+
+/* TableView Styling */
+.records-table { -fx-background-color: transparent; -fx-border-color: #EBE0D3; -fx-border-radius: 12px; -fx-background-radius: 12px; }
+.records-table .column-header-background { -fx-background-color: transparent; }
+.records-table .column-header .label { -fx-text-fill: #A1887F; -fx-font-weight: bold; -fx-font-size: 13px; -fx-padding: 15px; }
+.records-table .table-row-cell { -fx-border-color: #EBE0D3; -fx-border-width: 0 0 1px 0; -fx-background-color: transparent; }
+.records-table .table-cell { -fx-border-color: transparent; -fx-padding: 10px 8px; -fx-font-size: 14px; -fx-text-fill: #5D4037; }
+
+/* Status Badge Styling */
+.status-badge { -fx-padding: 5px 12px; -fx-background-radius: 12px; -fx-font-size: 12px; -fx-font-weight: bold; }
+.status-active { -fx-background-color: #E8EADF; -fx-text-fill: #79894a; } /* Hijau */
+.status-completed { -fx-background-color: #F5EFE6; -fx-text-fill: #AF642E; } /* Pasir */
+.status-inactive { -fx-background-color: #ECEFF1; -fx-text-fill: #546E7A; } /* Abu-abu */
+
+/* Action Links in Table */
+.action-link { -fx-text-fill: #C87941; -fx-underline: false; -fx-font-size: 13px; }
+.action-link:hover { -fx-underline: true; }
+
+/* Logout Button Bottom */
+.logout-button-bottom {
+    -fx-background-color: #F5EFE6;
+    -fx-text-fill: #5D4037;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 25px;
+}
+.logout-button-bottom:hover {
+    -fx-background-color: #EBE0D3;
+}
+
+.footer {
+    -fx-padding: 20px 80px;
+}

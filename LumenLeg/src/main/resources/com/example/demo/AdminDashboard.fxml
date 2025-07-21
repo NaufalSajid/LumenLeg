@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="root" stylesheets="@Global.css, @AdminDashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AdminCont.AdminDashboardController">
+    <top>
+        <HBox alignment="CENTER_LEFT" styleClass="header">
+            <children>
+                <Label styleClass="logo-text" text="LumenLeg" />
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label styleClass="page-title" text="LumenLeg Admin" />
+                <VBox maxWidth="800.0" spacing="20.0">
+                    <children>
+                        <HBox fx:id="manageRecordsCard" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="admin-card">
+                            <children>
+                                <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="icon-container, icon-color-1">
+                                    <children>
+                                        <Label styleClass="icon-text" text="📄" />
+                                    </children>
+                                </VBox>
+                                <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label styleClass="card-title" text="Manage Patient Records" />
+                                        <Label styleClass="card-description" text="Access and update patient information, including medical history, treatment plans, and progress reports." wrapText="true" />
+                                    </children>
+                                </VBox>
+                                <Button mnemonicParsing="false" onAction="#handleManageRecords" styleClass="go-button" text="Go" />
+                            </children>
+                        </HBox>
+                        <HBox fx:id="reviewProposalsCard" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="admin-card">
+                            <children>
+                                <VBox styleClass="icon-container, icon-color-2">
+                                    <children>
+                                        <Label styleClass="icon-text" text="📋" />
+                                    </children>
+                                </VBox>
+                                <VBox HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label styleClass="card-title" text="Review Rehab Proposals" />
+                                        <Label styleClass="card-description" text="Evaluate and approve rehabilitation proposals submitted by therapists, ensuring alignment with patient needs." wrapText="true" />
+                                    </children>
+                                </VBox>
+                                <Button mnemonicParsing="false" onAction="#handleReviewProposals" styleClass="go-button" text="Go" />
+                            </children>
+                        </HBox>
+                        <HBox fx:id="addNotesCard" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="admin-card">
+                            <children>
+                                <VBox styleClass="icon-container, icon-color-3">
+                                    <children>
+                                        <Label styleClass="icon-text" text="✍️" />
+                                    </children>
+                                </VBox>
+                                <VBox HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label styleClass="card-title" text="Add Therapist Notes" />
+                                        <Label styleClass="card-description" text="Input and manage therapist notes, providing detailed insights into patient progress and treatment adjustments." wrapText="true" />
+                                    </children>
+                                </VBox>
+                                <Button mnemonicParsing="false" onAction="#handleAddNotes" styleClass="go-button" text="Go" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+            <padding>
+                <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+            </padding>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="footer" BorderPane.alignment="CENTER_RIGHT">
+            <children>
+                <Button mnemonicParsing="false" onAction="#handleLogout" styleClass="logout-button-bottom" text="Logout" />
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>

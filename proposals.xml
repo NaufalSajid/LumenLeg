@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<proposals>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>a</personalGoals>
+        <preferredIntensity>Medium - 3-4 times a week</preferredIntensity>
+        <preferredStartDate>2025-07-15</preferredStartDate>
+        <proposalId>prop-0fc3e070-6865-4c27-8827-53b629c77bcd</proposalId>
+        <status>Approved</status>
+    </proposal>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>recovery leg</personalGoals>
+        <preferredIntensity>Medium - 3-4 times a week</preferredIntensity>
+        <preferredStartDate>2025-07-01</preferredStartDate>
+        <proposalId>prop-27b92429-21ab-4fd8-94de-c01436da0ae3</proposalId>
+        <status>Approved</status>
+    </proposal>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>sakit</personalGoals>
+        <preferredIntensity>Medium - 3-4 times a week</preferredIntensity>
+        <preferredStartDate>2025-07-22</preferredStartDate>
+        <proposalId>prop-a51a95ab-ea42-4fa7-8a22-92daa97b1faa</proposalId>
+        <status>Pending</status>
+    </proposal>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>sakit keras</personalGoals>
+        <preferredIntensity>High - 5+ times a week</preferredIntensity>
+        <preferredStartDate>2025-07-22</preferredStartDate>
+        <proposalId>prop-fdee369a-d372-4969-ba26-0e0c9b8f27cb</proposalId>
+        <status>Approved</status>
+    </proposal>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>miy</personalGoals>
+        <preferredIntensity>High - 5+ times a week</preferredIntensity>
+        <preferredStartDate>2025-07-24</preferredStartDate>
+        <proposalId>prop-6df982cd-2eff-4fe5-9bf1-e97c48de41b8</proposalId>
+        <status>Pending</status>
+    </proposal>
+</proposals>

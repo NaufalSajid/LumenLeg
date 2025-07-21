@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<proposals>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>123123123</personalGoals>
+        <preferredIntensity>High - 5+ times a week</preferredIntensity>
+        <preferredStartDate>2025-07-22</preferredStartDate>
+        <proposalId>prop-54c886a7-a494-4f56-96c4-67d65956a2fa</proposalId>
+        <status>Approved</status>
+    </proposal>
+    <proposal>
+        <patientName>Current Patient</patientName>
+        <personalGoals>123123</personalGoals>
+        <preferredIntensity>High - 5+ times a week</preferredIntensity>
+        <preferredStartDate>2025-07-22</preferredStartDate>
+        <proposalId>prop-1fb67d8b-cf01-4854-8340-cde6f685cb87</proposalId>
+        <status>Rejected</status>
+    </proposal>
+</proposals>

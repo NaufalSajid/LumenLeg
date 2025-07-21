@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<patients>
+    <patient>
+        <patientId>0</patientId>
+        <name>dap</name>
+        <age>0</age>
+        <email>d@gmail.com</email>
+        <rehabStatus>Pending Profile</rehabStatus>
+        <rehabProgress>0.0</rehabProgress>
+    </patient>
+    <patient>
+        <patientId>0</patientId>
+        <name>dapdap</name>
+        <age>0</age>
+        <email>da@gmail.com</email>
+        <rehabStatus>Pending Profile</rehabStatus>
+        <rehabProgress>0.0</rehabProgress>
+    </patient>
+    <patient>
+        <patientId>0</patientId>
+        <name>dafafa</name>
+        <age>20</age>
+        <gender>Male</gender>
+        <email>d27@gmail.com</email>
+        <phoneNumber>123456789</phoneNumber>
+        <emergencyContact>123456789</emergencyContact>
+        <medicalHistory>sakit</medicalHistory>
+        <rehabStatus>Active</rehabStatus>
+        <therapistNotes>still in progress </therapistNotes>
+        <painLevel>High</painLevel>
+        <rehabStage>stage 5 : recovery</rehabStage>
+        <rehabProgress>0.38235294117647056</rehabProgress>
+    </patient>
+</patients>

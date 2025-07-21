@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane styleClass="root" stylesheets="@Global.css, @ProposePlan.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PatientCont.ProposePlanController">
+    <top>
+        <HBox alignment="CENTER_LEFT" styleClass="header">
+            <children>
+                <Label styleClass="logo-text" text="LumenLeg" />
+                <Region HBox.hgrow="ALWAYS" />
+            </children>
+            <padding>
+                <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+            </padding>
+        </HBox>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="10.0" styleClass="page-container">
+            <children>
+                <Label styleClass="page-title" text="Propose Your Rehabilitation Plan" />
+                <Label styleClass="page-subtitle" text="Let your therapist know your goals and preferences." />
+                <VBox maxWidth="600.0" spacing="20.0" styleClass="form-container">
+                    <children>
+                        <VBox spacing="5.0">
+                            <children>
+                                <Label styleClass="form-label" text="Preferred Start Date" />
+                                <DatePicker fx:id="startDatePicker" promptText="Select date" styleClass="date-picker" />
+                            </children>
+                        </VBox>
+                        <VBox spacing="5.0">
+                            <children>
+                                <Label styleClass="form-label" text="Preferred Intensity" />
+                                <ComboBox fx:id="intensityComboBox" prefWidth="Infinity" promptText="Select" />
+                            </children>
+                        </VBox>
+                        <VBox spacing="5.0">
+                            <children>
+                                <Label styleClass="form-label" text="My Personal Goals" />
+                                <TextArea fx:id="goalsTextArea" prefHeight="150.0" wrapText="true" />
+                            </children>
+                        </VBox>
+                    </children>
+                </VBox>
+                <HBox alignment="CENTER" maxWidth="600.0" styleClass="action-button-bar">
+                    <children>
+                        <Button fx:id="backButton" mnemonicParsing="false" onAction="#handleBackToDashboard" styleClass="secondary-button" text="Back to Dashboard" />
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="submitButton" mnemonicParsing="false" onAction="#handleSubmitProposal" styleClass="submit-button" text="Submit Proposal" />
+                    </children>
+                </HBox>
+            </children>
+            <padding>
+                <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>
